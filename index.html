@@ -5,9 +5,85 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="static/style.css">
+    <!-- iconify with material design icons https://pictogrammers.com/docs/guides/iconify/ -->
+    <!-- <script src="//code.iconify.design/1/1.0.6/iconify.min.js"></script>  -->
+    <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
     <title>Simple dashboard</title>
 </head>
 <body>
-    
+    <div class="header">
+        <div class="search-bar">
+            <iconify-icon icon="mdi:magnify"></iconify-icon>
+            <input type="text">
+        </div>
+        <div class="notif-section">
+            <iconify-icon icon="mdi:bell-ring"></iconify-icon>
+            <img src="./static/imgs/—Pngtree—cartoon color simple male avatar_5230557.png" alt="profile picture">
+            <span>Pedram Yousefi</span>
+        </div>
+
+        <div class="profile-section">
+            <img src="./static/imgs/—Pngtree—cartoon color simple male avatar_5230557.png" alt="profile picture">
+            <span>Hi there,</span>
+            <span>Pedram Yousefi</span>
+        </div>
+
+        <div class="commands">
+            <button>New</button>
+            <button>Upload</button>
+            <button>Share</button>
+        </div>
+    </div>
+    <div class="sidebar">
+        
+        <div class="logo">
+            <iconify-icon icon="mdi:view-dashboard"></iconify-icon>
+            <a href="#">Dashboard</a>
+        </div>
+        <div class="sidebar-nav">
+            <div class="sidebar-item">
+                <iconify-icon icon="mdi:home"></iconify-icon>
+                <a href="#" class="sidebar-text">Home</a>
+            </div>
+            <div class="sidebar-item">
+                <iconify-icon icon="mdi:card-account-details-outline"></iconify-icon>
+                <a href="#" class="sidebar-text">Profile</a>
+            </div>
+            <div class="sidebar-item">
+                <iconify-icon icon="mdi:message-reply"></iconify-icon>
+                <a href="#" class="sidebar-text">Messages</a>
+            </div>
+            <div class="sidebar-item">
+                <iconify-icon icon="mdi:history"></iconify-icon>
+                <a href="#" class="sidebar-text">History</a>
+            </div>
+            <div class="sidebar-item">
+                <iconify-icon icon="mdi:calendar-check-outline"></iconify-icon>
+                <a href="#" class="sidebar-text">Tasks</a>
+            </div>
+            <div class="sidebar-item">
+                <iconify-icon icon="mdi:account-group"></iconify-icon>
+                <a href="#" class="sidebar-text">Communities</a>
+            </div>
+        </div>
+
+        <div class="sidebar-settings">
+            <div class="sidebar-item">
+                <iconify-icon icon="mdi:cog"></iconify-icon>
+                <a href="#" class="sidebar-text">Settings</a>
+            </div>
+            <div class="sidebar-item">
+                <iconify-icon icon="mdi:help-box"></iconify-icon>
+                <a href="#" class="sidebar-text">Support</a>
+            </div>
+            <div class="sidebar-item">
+                <iconify-icon icon="mdi:shield-lock"></iconify-icon>
+                <a href="#" class="sidebar-text">Privacy</a>
+            </div>
+        </div>
+    </div>
+    <div class="content">
+
+    </div>
 </body>
 </html>
